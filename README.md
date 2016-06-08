@@ -13,8 +13,6 @@ element.on('mouseover' + namespace, opts.eventSelector, function(e) {
 
 ## Motivation
 
-I made this small library to practice my JavaScript skills. It's also one of the school assignments I had to work out.
-
 This short piece of code is written to improve my jQuery skills. It’s an assignment for Fontys Hogescholen ICT & Media Design.
 
 ## Installation
