@@ -6,10 +6,10 @@ var previewImage = function (options) {
         var opts = $.extend({
 
         'eventSelector': '[data-preview-image]', 
-        'dataKey': 'previewImage', // the key to the link data, should match the above value.
+        'dataKey': 'previewImage', // de link naar de data, deze moet matchen bij de bovenstaande regel.
         }, options);
         
-        // unbind any previous event listeners:
+        // ontbindt vorige event listeners:
         element.off(namespace);
             
         element.on('mouseover' + namespace, opts.eventSelector, function(e) {
