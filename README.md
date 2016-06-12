@@ -1,6 +1,6 @@
 ## Synopsis
 
-preview.js is a 'small' jQuery library that previews the value of an element on hover. Currently there are no extra options of functions.
+preview.js is a 'small' jQuery library that previews the value of an element on hover. Currently there are no extra options or functions.
 
 ## Code Example
 
