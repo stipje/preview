@@ -17,10 +17,6 @@ var previewImage = function (options) {
         });
         
         return this;
-
-    return {
-        init: init,
-    };
     
 };
 
