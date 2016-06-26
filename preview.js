@@ -19,5 +19,3 @@ var previewImage = function (options) {
         return this;
     
 };
-
-$.previewImage();
