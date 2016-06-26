@@ -1,6 +1,7 @@
 var previewImage = function (options) {
 
-    // dingen die ingesteld kunnen worden
+    // elementen die ingesteld kunnen worden
+        var actie = 'click';
         var element = $(document);
         var namespace = '.previewImage';
         var opts = $.extend({
@@ -12,10 +13,13 @@ var previewImage = function (options) {
         // ontbindt vorige event listeners:
         element.off(namespace);
             
-        element.on('mouseover' + namespace, opts.eventSelector, function(e) {
+        element.on(actie + namespace, opts.eventSelector, function(e) {
             $("#plaatje").attr("src",$(this).data(opts.dataKey));
         });
         
         return this;
+
     
 };
+
+
