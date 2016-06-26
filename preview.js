@@ -1,7 +1,7 @@
 var previewImage = function (options) {
 
     // elementen die ingesteld kunnen worden
-        var actie = 'click';
+        var actie = 'mouseover';
         var element = $(document);
         var namespace = '.previewImage';
         var opts = $.extend({
